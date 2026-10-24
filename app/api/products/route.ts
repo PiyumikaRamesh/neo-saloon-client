@@ -1,4 +1,4 @@
-import { NextRequest } from 'next/server.js';
+import { NextRequest, NextResponse } from 'next/server.js';
 import * as jose from "jose";
 
 export async function GET(request:  NextRequest){

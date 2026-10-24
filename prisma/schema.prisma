@@ -22,5 +22,6 @@ model User {
   role String @default("CUSTOMER")
   status String @default("ACTIVE")// ACTIVE, BANNED, SUSPENDED
   createdAT DateTime @default(now())
+  lastLogin DateTime?
   privileges String[] @default([])
 }//gender, emailverified, phoneverified
