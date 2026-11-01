@@ -24,4 +24,5 @@ model User {
   createdAT DateTime @default(now())
   lastLogin DateTime?
   privileges String[] @default([])
+  profileImage String @default("images/default-profile.png")
 }//gender, emailverified, phoneverified
